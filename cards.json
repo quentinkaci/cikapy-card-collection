@@ -4090,7 +4090,9 @@
     "quantity": 1,
     "population": 1,
     "folder": "Sun & Moon",
-    "images": []
+    "images": [
+      "scans/2ca49878ad9623fb.jpg"
+    ]
   },
   {
     "id": "983a6636005feb93",
@@ -4103,7 +4105,9 @@
     "quantity": 1,
     "population": 6,
     "folder": "Delta Species",
-    "images": []
+    "images": [
+      "scans/983a6636005feb93.jpg"
+    ]
   },
   {
     "id": "a7bdca30b860c5e6",
@@ -4116,6 +4120,8 @@
     "quantity": 1,
     "population": 1,
     "folder": "Delta Species",
-    "images": []
+    "images": [
+      "scans/a7bdca30b860c5e6.jpg"
+    ]
   }
 ]
