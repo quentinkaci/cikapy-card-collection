@@ -49,6 +49,7 @@ body {
 
 .masthead {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
@@ -76,6 +77,7 @@ h1 {
 }
 
 .brand-heading { display: flex; align-items: center; gap: 12px; }
+.masthead > div:first-child { flex: 1 1 0; }
 .theme-toggle { display: inline-grid; width: 40px; height: 40px; padding: 0; border: 1px solid var(--line); border-radius: 6px; place-items: center; color: var(--muted); background: var(--surface); cursor: pointer; flex: 0 0 40px; touch-action: manipulation; }
 .theme-toggle:hover { border-color: var(--green); color: var(--green); }
 .theme-to-light, :root[data-theme="dark"] .theme-to-dark { display: none; }
@@ -199,8 +201,8 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 #new-folder:hover, #folder-form button:hover { border-color: var(--green); color: var(--green); }
 #folder-form { display: flex; align-items: end; gap: 6px; }
 #folder-form[hidden] { display: none; }
-#folder-form label { display: block; }
-#folder-name { width: 190px; height: 42px; }
+#folder-form label { display: block; flex: 0 1 190px; min-width: 0; }
+#folder-name { height: 42px; }
 
 .status { min-height: 16px; margin: 6px 0 12px; color: var(--muted); font-size: 12px; }
 
@@ -261,7 +263,7 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 .card-body { display: grid; gap: 7px; padding: 11px 12px 12px; }
 .card-heading { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 8px; }
 .set-name { overflow: hidden; margin: 0; color: var(--muted); font-size: 10px; line-height: 1.3; text-overflow: ellipsis; white-space: nowrap; }
-h2 { margin: 0; overflow: hidden; font-family: "Manrope", sans-serif; font-size: 14px; font-weight: 700; line-height: 1.25; letter-spacing: 0; text-overflow: ellipsis; white-space: nowrap; }
+h2 { margin: 0; overflow: hidden; font-size: 14px; font-weight: 700; line-height: 1.25; letter-spacing: 0; text-overflow: ellipsis; white-space: nowrap; }
 .price { color: var(--green); font-size: 13px; white-space: nowrap; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
@@ -303,28 +305,26 @@ h2 { margin: 0; overflow: hidden; font-family: "Manrope", sans-serif; font-size:
   #folder-form { grid-column: 1 / -1; }
 }
 
+@media (min-width: 901px) {
+  :root[data-visitor="true"] .toolbar { grid-template-columns: minmax(260px, 2fr) minmax(150px, 0.7fr) minmax(180px, 0.9fr); }
+}
+
 @media (max-width: 760px) {
-  .masthead { align-items: center; padding-top: 22px; }
-  .header-tools { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; }
-  .view-switch button { padding: 0 8px; white-space: nowrap; }
+  .masthead { padding-top: 22px; }
+  .header-tools { justify-content: space-between; gap: 8px; width: 100%; }
+  .view-switch button { padding: 0 8px; }
   .visitor-toggle { width: 40px; justify-content: center; padding: 0; }
-  .visitor-toggle span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  #new-folder { width: 42px; padding: 0; }
+  .visitor-toggle span, #new-folder span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .summary { flex: 1; justify-content: end; }
   .summary-stat { min-width: 0; padding: 0 5px; }
   .summary-stat:last-child { padding-right: 0; }
   .summary strong { font-size: 16px; }
-  .summary span { font-size: 9px; }
-  .toolbar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .search-field { grid-column: 1 / -1; }
-  .import-control { grid-column: 1 / -1; }
-  #new-folder { width: 42px; padding: 0; }
-  #new-folder span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 }
 
-@media (max-width: 340px) {
-  .view-switch button { width: 40px; justify-content: center; padding: 0; }
-  .view-switch button span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 760px), (max-height: 600px) {
+  .toolbar { position: static; }
 }
 
 @media (max-width: 500px) {
@@ -334,34 +334,10 @@ h2 { margin: 0; overflow: hidden; font-family: "Manrope", sans-serif; font-size:
   .view-switch button span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .summary { flex: 0 0 100%; justify-content: flex-start; margin-top: 2px; }
   .summary-stat:first-child { padding-left: 0; }
-  .toolbar { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .search-field { grid-column: 1 / -1; }
-  .import-control { grid-column: 1 / -1; }
-  #folder-name { width: 100%; }
+  .control-shell select { padding: 0 28px 0 8px; }
+  .select-shell::after { right: 12px; }
   #folder-form label { flex: 1; }
-  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .card-body { padding: 9px; }
-  .card-heading { display: block; }
-  h2 {
-    display: -webkit-box;
-    min-height: 30px;
-    overflow: hidden;
-    font-size: 12px;
-    white-space: normal;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-  }
-  .price { display: block; margin-top: 3px; font-size: 11px; }
-  .set-name {
-    display: -webkit-box;
-    min-height: 24px;
-    overflow: hidden;
-    font-size: 9px;
-    white-space: normal;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-  }
-  .condition-meta .population { display: none; }
+  .card-body { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
