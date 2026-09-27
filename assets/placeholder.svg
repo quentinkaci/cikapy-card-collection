@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="title description">
+  <title id="title">Card scan unavailable</title>
+  <desc id="description">A simple placeholder for a graded Pokémon card without a scan.</desc>
+  <rect width="480" height="600" fill="#dedbd2"/>
+  <rect x="82" y="54" width="316" height="492" rx="10" fill="#fffdf8" stroke="#18201c" stroke-width="6"/>
+  <rect x="104" y="82" width="272" height="64" fill="#d94336"/>
+  <circle cx="240" cy="302" r="84" fill="none" stroke="#245f49" stroke-width="12"/>
+  <path d="M158 302h164" stroke="#245f49" stroke-width="12"/>
+  <circle cx="240" cy="302" r="26" fill="#fffdf8" stroke="#245f49" stroke-width="12"/>
+  <text x="240" y="444" fill="#18201c" font-family="sans-serif" font-size="22" text-anchor="middle">SCAN UNAVAILABLE</text>
+</svg>

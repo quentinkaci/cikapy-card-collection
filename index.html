@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" data-public="true">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f3f4f6">
+    <title>Pokémon Card Collection</title>
+    <script>
+      (() => {
+        const savedTheme = localStorage.getItem("collection-theme");
+        const theme = savedTheme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=26">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to collection</a>
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">Personal archive</p>
+        <div class="brand-heading">
+          <h1>Pokémon Collection</h1>
+        </div>
+      </div>
+      <div class="header-tools">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme">
+          <i class="theme-to-dark" data-lucide="moon" aria-hidden="true"></i>
+          <i class="theme-to-light" data-lucide="sun" aria-hidden="true"></i>
+        </button>
+        <button id="visitor-toggle" class="visitor-toggle" type="button" aria-pressed="false">
+          <i class="visitor-enter" data-lucide="eye" aria-hidden="true"></i>
+          <i class="visitor-exit" data-lucide="eye-off" aria-hidden="true"></i>
+          <span>Visitor</span>
+        </button>
+        <div class="view-switch" role="group" aria-label="Collection view">
+          <button class="active" type="button" data-view="all" aria-pressed="true"><i data-lucide="layout-grid" aria-hidden="true"></i><span>All cards</span></button>
+          <button type="button" data-view="folders" aria-pressed="false"><i data-lucide="folder" aria-hidden="true"></i><span>Folders</span></button>
+        </div>
+        <div class="summary" aria-live="polite">
+          <div class="summary-stat">
+            <strong id="visible-count">0</strong>
+            <span>Cards</span>
+          </div>
+          <div class="summary-stat summary-value">
+            <strong id="visible-value">$0</strong>
+            <span>Value</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="toolbar" aria-label="Collection filters">
+        <label class="search-field">
+          <span>Find cards</span>
+          <span class="control-shell">
+            <i data-lucide="search" aria-hidden="true"></i>
+            <input id="search" type="search" placeholder="Card, set, or certificate">
+          </span>
+        </label>
+        <label>
+          <span>Grader</span>
+          <span class="control-shell select-shell">
+            <i data-lucide="badge-check" aria-hidden="true"></i>
+            <select id="company-filter"><option value="">All</option></select>
+          </span>
+        </label>
+        <label>
+          <span>Sort by</span>
+          <span class="control-shell select-shell">
+            <i data-lucide="arrow-up-down" aria-hidden="true"></i>
+            <select id="sort-order">
+              <option value="set">Oldest</option>
+              <option value="price">Highest</option>
+            </select>
+          </span>
+        </label>
+        <div class="import-control">
+          <span>Data</span>
+          <button id="import-csv" type="button"><i data-lucide="upload" aria-hidden="true"></i><span>Update CSV</span></button>
+          <input id="csv-input" type="file" accept=".csv,text/csv" hidden>
+        </div>
+      </section>
+
+      <nav id="folder-bar" class="folder-bar" aria-label="Collection folders" hidden>
+        <label class="folder-picker">
+          <span>Folder</span>
+          <span class="control-shell select-shell">
+            <i data-lucide="folder-open" aria-hidden="true"></i>
+            <select id="folder-select"></select>
+          </span>
+        </label>
+        <button id="new-folder" type="button" aria-label="Add folder"><i data-lucide="folder-plus" aria-hidden="true"></i><span>Add folder</span></button>
+        <form id="folder-form" hidden>
+          <label><span class="visually-hidden">Folder name</span><input id="folder-name" maxlength="50" required placeholder="Folder name"></label>
+          <button type="submit" aria-label="Create folder" title="Create folder"><i data-lucide="check" aria-hidden="true"></i></button>
+          <button id="cancel-folder" type="button" aria-label="Cancel" title="Cancel"><i data-lucide="x" aria-hidden="true"></i></button>
+        </form>
+      </nav>
+
+      <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true">Loading collection…</p>
+      <section id="card-grid" class="card-grid" aria-label="Cards"></section>
+    </main>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="image-wrap">
+          <img class="card-image" alt="" loading="lazy">
+          <button class="add-scan" type="button">Add scan</button>
+          <input class="scan-input" type="file" accept="image/jpeg,image/png,image/webp" hidden>
+        </div>
+        <div class="card-body">
+          <div class="card-heading">
+            <h2></h2>
+            <strong class="price"></strong>
+          </div>
+          <p class="set-name"></p>
+          <div class="card-footer">
+            <div class="condition-meta">
+              <span class="grade"></span>
+              <span class="population"></span>
+            </div>
+            <button class="manage-card" type="button" aria-label="Manage card" title="Manage card"><i data-lucide="ellipsis" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <dialog id="card-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-set">
+      <form id="card-form" class="dialog-panel">
+        <header class="dialog-header">
+          <div>
+            <p id="dialog-set"></p>
+            <h2 id="dialog-title"></h2>
+          </div>
+          <button id="close-dialog" class="icon-button" type="button" aria-label="Close" title="Close"><i data-lucide="x" aria-hidden="true"></i></button>
+        </header>
+        <div class="dialog-meta">
+          <span id="dialog-grade"></span>
+          <a id="dialog-cert" target="_blank" rel="noreferrer"></a>
+        </div>
+        <label>
+          <span>Price (USD)</span>
+          <input id="dialog-price" type="number" min="0" step="0.01" required>
+        </label>
+        <label>
+          <span>Folder</span>
+          <select id="dialog-folder"></select>
+        </label>
+        <p id="dialog-status" class="dialog-status" role="alert"></p>
+        <footer class="dialog-actions">
+          <button id="dialog-delete" class="danger-button" type="button">Remove card</button>
+          <button class="primary-button" type="submit">Save changes</button>
+        </footer>
+      </form>
+    </dialog>
+
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="app.js?v=29" defer></script>
+  </body>
+</html>
