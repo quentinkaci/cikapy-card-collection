@@ -9,7 +9,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 4,
-    "folder": "Black & White",
+    "folder": "To Sell",
     "images": [
       "scans/48c6a23eaedc2af1.jpg"
     ]
@@ -24,7 +24,7 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 8,
-    "folder": "Black & White",
+    "folder": "To Sell",
     "images": [
       "scans/7dd67ada36f0dc39.jpg"
     ]
@@ -39,7 +39,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 9,
-    "folder": "Black & White - Shiny Collection",
+    "folder": "Black & White",
     "images": [
       "scans/3113ac5774e9948b.jpg"
     ]
@@ -54,7 +54,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 20,
-    "folder": "Black & White - Shiny Collection",
+    "folder": "Black & White",
     "images": [
       "scans/7f5ca9638e1593b7.jpg"
     ]
@@ -69,7 +69,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 12,
-    "folder": "Black & White - Shiny Collection",
+    "folder": "Black & White",
     "images": [
       "scans/0865f075231673ca.jpg"
     ]
@@ -1884,7 +1884,7 @@
     "grade": "CGC 10",
     "quantity": 1,
     "population": 29,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/ab55d7238be10c53.jpg"
     ]
@@ -1899,7 +1899,7 @@
     "grade": "CGC 10  Pristine",
     "quantity": 1,
     "population": 21,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/8c64c14efb79afe6.jpg"
     ]
@@ -1929,7 +1929,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 398,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/fe5b26e103055e1b.jpg"
     ]
@@ -1944,7 +1944,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 453,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/14b99ecdb82ea982.jpg"
     ]
@@ -1959,7 +1959,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 1298,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/6062d40f23d6001f.jpg"
     ]
@@ -2064,7 +2064,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 601,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/2d08123c0ad23eb0.jpg"
     ]
@@ -2079,7 +2079,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 280,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/4c4ae0d299e51b47.jpg"
     ]
@@ -2289,7 +2289,7 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 2178,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/ab7c2760cf7f9051.jpg"
     ]
@@ -2304,7 +2304,7 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 821,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/abcf3be5e7a0eea0.jpg"
     ]
@@ -2319,24 +2319,9 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 1793,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/ac74df9339d55960.jpg"
-    ]
-  },
-  {
-    "id": "8c7bfcace95dfedf",
-    "name": "Full Art / Latios & Latias Gx-Hyper",
-    "year": 2018,
-    "set": "Pokemon Japanese Sun & Moon Tag Bolt",
-    "cardNumber": "114/095",
-    "company": "PSA",
-    "grade": "PSA 9",
-    "quantity": 1,
-    "population": 296,
-    "folder": "Sun & Moon - HR",
-    "images": [
-      "scans/8c7bfcace95dfedf.jpg"
     ]
   },
   {
@@ -2349,7 +2334,7 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 428,
-    "folder": "Sun & Moon - HR",
+    "folder": "To Sell",
     "images": [
       "scans/34160935b7737cc6.jpg"
     ]
@@ -2469,7 +2454,7 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 1111,
-    "folder": "Sword & Shield",
+    "folder": "To Improve",
     "images": [
       "scans/12dfa80235c0e14d.jpg"
     ]
@@ -3969,7 +3954,7 @@
     "grade": "CCC 9.5",
     "quantity": 1,
     "population": 190,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/64498975e76a3ca1.jpg"
     ]
@@ -3984,7 +3969,7 @@
     "grade": "CCC 9.5",
     "quantity": 1,
     "population": 16,
-    "folder": "Sword & Shield",
+    "folder": "To Improve",
     "images": [
       "scans/ee845741abb9f9b9.jpg"
     ]
@@ -3999,7 +3984,7 @@
     "grade": "CCC 10",
     "quantity": 1,
     "population": 13,
-    "folder": "Sword & Shield",
+    "folder": "To Improve",
     "images": [
       "scans/ccdb7988d3ac52f9.jpg"
     ]
@@ -4029,7 +4014,7 @@
     "grade": "CCC 9.5",
     "quantity": 1,
     "population": 80,
-    "folder": "Scarlet & Violet",
+    "folder": "To Improve",
     "images": [
       "scans/ccce7f99c77505a7.jpg"
     ]
@@ -4074,7 +4059,7 @@
     "grade": "PCG 10",
     "quantity": 1,
     "population": 1,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/2ca49878ad9623fb.jpg"
     ]
@@ -4104,7 +4089,7 @@
     "grade": "PCG 10",
     "quantity": 1,
     "population": 1,
-    "folder": "Delta Species",
+    "folder": "To Improve",
     "images": [
       "scans/a7bdca30b860c5e6.jpg"
     ]
