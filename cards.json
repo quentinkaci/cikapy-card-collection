@@ -2004,7 +2004,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 222,
-    "folder": "Sun & Moon - Tag Team",
+    "folder": "To Improve",
     "images": [
       "scans/a343346d91fb5234.jpg"
     ]
@@ -2295,6 +2295,36 @@
     ]
   },
   {
+    "id": "879c8880fe21dbcf",
+    "name": "Mega Darkrai Ex",
+    "year": 2026,
+    "set": "Pokemon Japanese M5-Abyss Eye",
+    "cardNumber": "114/081",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 11491,
+    "folder": "Mega Evolutions",
+    "images": [
+      "scans/879c8880fe21dbcf.jpg"
+    ]
+  },
+  {
+    "id": "d2a72907985305cd",
+    "name": "Full Art / Blaziken V",
+    "year": 2021,
+    "set": "Pokemon Japanese Sword & Shield VMAX Climax",
+    "cardNumber": "216/184",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 1764,
+    "folder": "Sword & Shield",
+    "images": [
+      "scans/d2a72907985305cd.jpg"
+    ]
+  },
+  {
     "id": "c70a2fc3322eedce",
     "name": "Full Art / Solgaleo & Lunala Gx",
     "year": 2019,
@@ -2484,9 +2514,24 @@
     "grade": "PSA 9",
     "quantity": 1,
     "population": 1111,
-    "folder": "To Improve",
+    "folder": "To Sell",
     "images": [
       "scans/12dfa80235c0e14d.jpg"
+    ]
+  },
+  {
+    "id": "a628c89ed8157d36",
+    "name": "Full Art / Celebi V",
+    "year": 2021,
+    "set": "Pokemon Japanese S Promo",
+    "cardNumber": "175/S-P",
+    "company": "PSA",
+    "grade": "PSA 9",
+    "quantity": 1,
+    "population": 1111,
+    "folder": "Sword & Shield",
+    "images": [
+      "scans/a628c89ed8157d36.jpg"
     ]
   },
   {
