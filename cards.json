@@ -1914,7 +1914,7 @@
     "grade": "CGC 10",
     "quantity": 1,
     "population": 29,
-    "folder": "To Improve",
+    "folder": "To Sell",
     "images": [
       "scans/ab55d7238be10c53.jpg"
     ]
@@ -1929,7 +1929,7 @@
     "grade": "CGC 10  Pristine",
     "quantity": 1,
     "population": 21,
-    "folder": "To Improve",
+    "folder": "To Sell",
     "images": [
       "scans/8c64c14efb79afe6.jpg"
     ]
@@ -1959,7 +1959,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 398,
-    "folder": "To Improve",
+    "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/fe5b26e103055e1b.jpg"
     ]
@@ -1974,7 +1974,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 453,
-    "folder": "To Improve",
+    "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/14b99ecdb82ea982.jpg"
     ]
@@ -1989,7 +1989,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 1298,
-    "folder": "To Improve",
+    "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/6062d40f23d6001f.jpg"
     ]
@@ -2004,7 +2004,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 222,
-    "folder": "To Improve",
+    "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/a343346d91fb5234.jpg"
     ]
@@ -2094,7 +2094,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 601,
-    "folder": "To Improve",
+    "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/2d08123c0ad23eb0.jpg"
     ]
@@ -2109,7 +2109,7 @@
     "grade": "PSA 10",
     "quantity": 1,
     "population": 280,
-    "folder": "To Improve",
+    "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/4c4ae0d299e51b47.jpg"
     ]
@@ -2562,6 +2562,21 @@
     "folder": "Sword & Shield",
     "images": [
       "scans/c23970d11a7f66d7.jpg"
+    ]
+  },
+  {
+    "id": "83acefac5bef7c26",
+    "name": "Full Art / Lugia VSTAR",
+    "year": 2022,
+    "set": "Pokemon Korean Sword & Shield Paradigm Trigger",
+    "cardNumber": "123/098",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 25,
+    "folder": "Sword & Shield",
+    "images": [
+      "scans/83acefac5bef7c26.jpg"
     ]
   },
   {
@@ -4074,7 +4089,7 @@
     "grade": "CCC 10",
     "quantity": 1,
     "population": 13,
-    "folder": "To Improve",
+    "folder": "Sword & Shield",
     "images": [
       "scans/ccdb7988d3ac52f9.jpg"
     ]
@@ -4104,7 +4119,7 @@
     "grade": "CCC 9.5",
     "quantity": 1,
     "population": 80,
-    "folder": "To Improve",
+    "folder": "Scarlet & Violet",
     "images": [
       "scans/ccce7f99c77505a7.jpg"
     ]
@@ -4149,7 +4164,7 @@
     "grade": "PCG 10",
     "quantity": 1,
     "population": 1,
-    "folder": "To Improve",
+    "folder": "To Sell",
     "images": [
       "scans/2ca49878ad9623fb.jpg"
     ]
