@@ -2190,6 +2190,21 @@
     ]
   },
   {
+    "id": "828b71c73d4f406a",
+    "name": "Full Art / Lucario & Melmetal Gx",
+    "year": 2019,
+    "set": "Pokemon Japanese Sun & Moon Full Metal Wall",
+    "cardNumber": "059/054",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 671,
+    "folder": "Sun & Moon - Tag Team",
+    "images": [
+      "scans/828b71c73d4f406a.jpg"
+    ]
+  },
+  {
     "id": "0ea4345829a2276c",
     "name": "Full Art / Venusaur & Snivy Gx",
     "year": 2019,
@@ -2277,6 +2292,21 @@
     "folder": "Sun & Moon - Tag Team",
     "images": [
       "scans/6f6bf454bb15f374.jpg"
+    ]
+  },
+  {
+    "id": "6052c1b4c9db0968",
+    "name": "Mega Zeraora Ex",
+    "year": 2026,
+    "set": "Pokemon Japanese M5-Abyss Eye",
+    "cardNumber": "112/081",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 541,
+    "folder": "Mega Evolutions",
+    "images": [
+      "scans/6052c1b4c9db0968.jpg"
     ]
   },
   {
