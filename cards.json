@@ -1905,21 +1905,6 @@
     ]
   },
   {
-    "id": "8c64c14efb79afe6",
-    "name": "Lucario & Melmetal GX",
-    "year": 2023,
-    "set": "Pokemon Shining Together: Mu - CSM2aC Simplified Chinese",
-    "cardNumber": "172/150",
-    "company": "CGC",
-    "grade": "CGC 10  Pristine",
-    "quantity": 1,
-    "population": 21,
-    "folder": "To Sell",
-    "images": [
-      "scans/8c64c14efb79afe6.jpg"
-    ]
-  },
-  {
     "id": "059d090878a12ec2",
     "name": "Reshiram & Charizard Gx",
     "year": 2023,
@@ -2415,21 +2400,6 @@
     ]
   },
   {
-    "id": "34160935b7737cc6",
-    "name": "Full Art / Mewtwo & Mew Gx-Hyper",
-    "year": 2019,
-    "set": "Pokemon Japanese Sun & Moon Miracle Twins",
-    "cardNumber": "108/094",
-    "company": "PSA",
-    "grade": "PSA 9",
-    "quantity": 1,
-    "population": 428,
-    "folder": "To Sell",
-    "images": [
-      "scans/34160935b7737cc6.jpg"
-    ]
-  },
-  {
     "id": "c7fb240ec1dd8819",
     "name": "Full Art / Reshiram & Charizard Gx-Hyper",
     "year": 2019,
@@ -2532,21 +2502,6 @@
     "folder": "Sword & Shield - VSTAR Universe",
     "images": [
       "scans/73081a8ebb88446b.jpg"
-    ]
-  },
-  {
-    "id": "12dfa80235c0e14d",
-    "name": "Full Art / Celebi V",
-    "year": 2021,
-    "set": "Pokemon Japanese S Promo",
-    "cardNumber": "175/S-P",
-    "company": "PSA",
-    "grade": "PSA 9",
-    "quantity": 1,
-    "population": 1111,
-    "folder": "To Sell",
-    "images": [
-      "scans/12dfa80235c0e14d.jpg"
     ]
   },
   {
@@ -4107,6 +4062,21 @@
     "folder": "To Sell",
     "images": [
       "scans/64498975e76a3ca1.jpg"
+    ]
+  },
+  {
+    "id": "b626c1e5a6e42ce2",
+    "name": "Mega-Dracaufeu X ex",
+    "year": 2025,
+    "set": "Promo - Mega-Evolution",
+    "cardNumber": "023",
+    "company": "CCC",
+    "grade": "CCC 10",
+    "quantity": 1,
+    "population": 506,
+    "folder": "To Sell",
+    "images": [
+      "scans/b626c1e5a6e42ce2.jpg"
     ]
   },
   {
