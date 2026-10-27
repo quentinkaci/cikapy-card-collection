@@ -4213,5 +4213,65 @@
     "images": [
       "scans/a7bdca30b860c5e6.jpg"
     ]
+  },
+  {
+    "id": "42786cc62760feee",
+    "name": "Armaldo-Holo",
+    "year": 2006,
+    "set": "Pokemon Japanese Holon Phantoms",
+    "cardNumber": "033/052",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 82,
+    "folder": "ADV / PCG - Delta Species",
+    "images": [
+      "scans/42786cc62760feee.jpg"
+    ]
+  },
+  {
+    "id": "c17a08d537eb8806",
+    "name": "Full Art / Rowlet & Alolan Exeggutor GX",
+    "year": 2019,
+    "set": "Pokemon Japanese Sun & Moon Sky Legend",
+    "cardNumber": "056/054",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 895,
+    "folder": "Sun & Moon - Tag Team",
+    "images": [
+      "scans/c17a08d537eb8806.jpg"
+    ]
+  },
+  {
+    "id": "219ae5bc03bdfb75",
+    "name": "Full Art / Blaziken Vmax",
+    "year": 2021,
+    "set": "Pokemon Japanese Sword & Shield VMAX Climax",
+    "cardNumber": "217/184",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 1999,
+    "folder": "Sword & Shield",
+    "images": [
+      "scans/219ae5bc03bdfb75.jpg"
+    ]
+  },
+  {
+    "id": "c6fe73f04770e799",
+    "name": "Full Art / Pikachu Vmax",
+    "year": 2021,
+    "set": "Pokemon Japanese Sword & Shield VMAX Climax",
+    "cardNumber": "223/184",
+    "company": "PSA",
+    "grade": "PSA 10",
+    "quantity": 1,
+    "population": 11351,
+    "folder": "Sword & Shield",
+    "images": [
+      "scans/c6fe73f04770e799.jpg"
+    ]
   }
 ]
