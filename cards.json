@@ -4288,5 +4288,110 @@
     "images": [
       "scans/c6fe73f04770e799.jpg"
     ]
+  },
+  {
+    "id": "9e5c4a959d5365c7",
+    "name": "Cacturne - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm",
+    "cardNumber": "002/100",
+    "company": "PSA",
+    "grade": "PSA 8",
+    "quantity": 1,
+    "population": 3,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/9e5c4a959d5365c7.jpg"
+    ]
+  },
+  {
+    "id": "bd2a5719e2aa3d95",
+    "name": "Mysdibule - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm",
+    "cardNumber": "009/100",
+    "company": "PSA",
+    "grade": "PSA 9",
+    "quantity": 1,
+    "population": 2,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/bd2a5719e2aa3d95.jpg"
+    ]
+  },
+  {
+    "id": "837dbdc793999d89",
+    "name": "Solaroc - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm - CCC",
+    "cardNumber": "013/100",
+    "company": "CCC",
+    "grade": "CCC 10",
+    "quantity": 1,
+    "population": 1,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/837dbdc793999d89.jpg"
+    ]
+  },
+  {
+    "id": "2229d291855f21d8",
+    "name": "Seviper - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm - CCC",
+    "cardNumber": "011/100",
+    "company": "CCC",
+    "grade": "CCC 9",
+    "quantity": 1,
+    "population": 1,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/2229d291855f21d8.jpg"
+    ]
+  },
+  {
+    "id": "ab7f83216e872a94",
+    "name": "Teraclope - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm - CCC",
+    "cardNumber": "004/100",
+    "company": "CCC",
+    "grade": "CCC 8.5",
+    "quantity": 1,
+    "population": 2,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/ab7f83216e872a94.jpg"
+    ]
+  },
+  {
+    "id": "b8adcc4026300120",
+    "name": "Teraclope - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm - CCC",
+    "cardNumber": "004/100",
+    "company": "CCC",
+    "grade": "CCC 9",
+    "quantity": 1,
+    "population": 2,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/b8adcc4026300120.jpg"
+    ]
+  },
+  {
+    "id": "6eb28c34306f84f0",
+    "name": "Armaldo - Holo",
+    "year": 2004,
+    "set": "Pokemon French Sandstorm - CCC",
+    "cardNumber": "001/100",
+    "company": "CCC",
+    "grade": "CCC 9",
+    "quantity": 1,
+    "population": 4,
+    "folder": "Jules - TDS",
+    "images": [
+      "scans/6eb28c34306f84f0.jpg"
+    ]
   }
 ]
